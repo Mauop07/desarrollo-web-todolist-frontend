@@ -1,0 +1,27 @@
+$primary-color: #bbf2d7;
+$secondary-color: #d1d5fa;
+$border-color: #b8bef4;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.scrollable-list {
+  height: 80vh; 
+  overflow-y: auto; 
+  padding-right: 10px; 
+}
+
+.scrollable-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollable-list::-webkit-scrollbar-thumb {
+  background-color: #cccccc;
+  border-radius: 10px;
+}

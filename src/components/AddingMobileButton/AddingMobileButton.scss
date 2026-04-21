@@ -1,0 +1,13 @@
+@import '../../App.scss';
+
+.floating-btn {
+  position: fixed;
+  top: 80px; 
+  left: 20px; 
+  z-index: 1000; 
+  
+  background-color: $secondary-color !important;
+  color: #000 !important;
+  border: none !important;
+  border-radius: 30px !important;
+}

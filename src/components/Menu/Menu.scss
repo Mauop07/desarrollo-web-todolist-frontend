@@ -1,0 +1,15 @@
+@import '../../App.scss';
+
+.react-logo {
+  color: #61dafb;
+  font-size: 1.8rem;
+}
+
+.navbar-dark .navbar-toggler {
+  border: none;
+}
+
+.navbar {
+  position: relative;
+  z-index: 1050 !important; 
+}
