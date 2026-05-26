@@ -16,5 +16,12 @@ Esta es una aplicación web responsive desarrollada para la gestión integral de
 ## Instrucciones de Ejecución (Local)
 1. Clonar el repositorio y abrir la terminal en la raíz del proyecto.
 2. Instalar dependencias:
-   ```bash
    npm install
+3. Ejecutar el servidor de desarrollo:
+   npm run dev
+
+## Instrucciones de Ejecución (Docker)
+1. Construir la imagen:
+   docker build -t frontend-todo .
+2. Levantar el contenedor:
+   docker run -p 5173:5173 frontend-todo
