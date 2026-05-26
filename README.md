@@ -1,16 +1,20 @@
-# To-Do List: Control de Tareas y Metas Personales
+# To-Do List: Control de Tareas y Metas Personales (Frontend)
 
-Esta es una aplicación web responsive desarrollada con React, React-Bootstrap y SASS para la Actividad 1 del curso de Desarrollo de Aplicaciones Web. Permite visualizar una maqueta para la gestión de metas personales y sus fechas límite.
+Esta es una aplicación web responsive desarrollada para la gestión integral de tareas y metas personales. Forma parte del Proyecto Final del curso, integrando manejo de estados y conexión a una base de datos real.
+
+## Tecnologías Utilizadas
+* React & React-Bootstrap
+* SASS para estilos personalizados
+* Redux Toolkit para el manejo global de estados
+* Vite como empaquetador
+* Docker
 
 ## Requisitos previos
-- Tener instalado [Node.js](https://nodejs.org/).
+* Node.js instalado.
+* Docker (opcional, para correr en contenedor).
 
-## Instrucciones para ejecutar el proyecto
-
-1. **Clonar o descargar el repositorio:**
-   Descargar los archivos del proyecto a su computadora y abrir la carpeta raíz en su terminal o editor de código.
-
-2. **Instalar las dependencias:**
-   Ejecutar el siguiente comando en la terminal para instalar React, Bootstrap, SASS y demás librerías necesarias:
+## Instrucciones de Ejecución (Local)
+1. Clonar el repositorio y abrir la terminal en la raíz del proyecto.
+2. Instalar dependencias:
    ```bash
    npm install
